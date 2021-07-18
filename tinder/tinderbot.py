@@ -47,7 +47,7 @@ class TinderBot:
             
     def dislike(self):
         try:
-            self.driver.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/div[2]/button').click()
+            self.driver.find_element_by_xpath('/html/body/div[1]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[2]/button/span/span').click()
             self.__totalDislikes += 1
         except ElementClickInterceptedException:
             self.solveProblems()
