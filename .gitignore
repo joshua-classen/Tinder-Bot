@@ -144,3 +144,9 @@ instagram.txt
 snap.txt
 config_.json
 config.json
+
+#python environment
+bin/
+lib64
+pyvenv.cfg
+
